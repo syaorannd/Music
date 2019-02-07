@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>PlayerBar.qml</file>
+        <file>main.cpp</file>
+        <file>Resource/img/next.png</file>
+        <file>Resource/img/pause.png</file>
+        <file>Resource/img/play.png</file>
+        <file>Resource/img/pre.png</file>
+        <file>Resource/img/replay.png</file>
+        <file>Resource/img/shuffle.png</file>
+        <file>Resource/img/example.png</file>
+        <file>Resource/img/menu.png</file>
+        <file>Resource/img/replay-arrow.png</file>
+        <file>Resource/img/sample2.jpg</file>
+        <file>Resource/img/sample3.jpg</file>
+        <file>Resource/img/sample4.jpg</file>
+        <file>Resource/img/sample5.jpg</file>
+        <file>Resource/img/sample6.jpg</file>
+        <file>Resource/img/sample7.jpg</file>
+        <file>Resource/img/sample8.jpg</file>
+        <file>Resource/img/sample9.jpg</file>
+        <file>Resource/img/sample10.jpg</file>
+        <file>Menu.qml</file>
+        <file>Resource/img/album.png</file>
+        <file>Resource/img/artist.png</file>
+        <file>Resource/img/dj.png</file>
+        <file>Resource/img/music-player.png</file>
+        <file>Resource/img/playlist.png</file>
+        <file>Resource/img/back.png</file>
+    </qresource>
+</RCC>
