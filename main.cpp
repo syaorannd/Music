@@ -11,15 +11,13 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QList<QObject*> dataList;
-    dataList.append(new MusicInfo("lo-fi","shiloh"));
-    dataList.append(new MusicInfo("lo-fi","shiloh"));
-    dataList.append(new MusicInfo("lo-fi","shiloh"));
-    dataList.append(new MusicInfo("lo-fi","shiloh"));
-    dataList.append(new MusicInfo("lo-fi","shiloh"));
-    dataList.append(new MusicInfo("lo-fi","shiloh"));
-
-
-
+    dataList.append(new MusicInfo("oatmello - no way back","qrc:/Resource/img/example.png"));
+    dataList.append(new MusicInfo("Wildflower","qrc:/Resource/img/sample2.jpg"));
+    dataList.append(new MusicInfo("digitalluc - Float","qrc:/Resource/img/sample3.jpg"));
+    dataList.append(new MusicInfo("blnkspc_ - Sticky","qrc:/Resource/img/sample4.jpg"));
+    dataList.append(new MusicInfo("love the way you are","qrc:/Resource/img/sample5.jpg"));
+    dataList.append(new MusicInfo("soft and skin","qrc:/Resource/img/sample6.jpg"));
+    dataList.append(new MusicInfo("miss you like crazy","qrc:/Resource/img/sample7.jpg"));
 
 
     QQmlApplicationEngine engine;

@@ -348,42 +348,43 @@ Window {
             anchors.horizontalCenter: parent.horizontalCenter
             orientation: ListView.Horizontal
             focus: true
-            model: ListModel {
-                ListElement {
-                    name: "oatmello - no way back"
-                    srcImg: "qrc:/Resource/img/example.png"
-                }
+//            model: ListModel {
+//                ListElement {
+//                    name: "oatmello - no way back"
+//                    srcImg: "qrc:/Resource/img/example.png"
+//                }
 
-                ListElement {
-                    name: "Wildflower"
-                    srcImg: "qrc:/Resource/img/sample4.jpg"
-                }
-                ListElement {
-                    name: "digitalluc - Float"
-                    srcImg: "qrc:/Resource/img/sample3.jpg"
-                }
+//                ListElement {
+//                    name: "Wildflower"
+//                    srcImg: "qrc:/Resource/img/sample4.jpg"
+//                }
+//                ListElement {
+//                    name: "digitalluc - Float"
+//                    srcImg: "qrc:/Resource/img/sample3.jpg"
+//                }
 
-                ListElement {
-                    name: "blnkspc_ - Sticky"
-                    srcImg: "qrc:/Resource/img/sample2.jpg"
-                }
-                ListElement {
-                    name: "love the way you are"
-                    srcImg: "qrc:/Resource/img/sample5.jpg"
-                }
-                ListElement {
-                    name: "soft and skin"
-                    srcImg: "qrc:/Resource/img/sample7.jpg"
-                }
-                ListElement {
-                    name: "miss you like crazy"
-                    srcImg: "qrc:/Resource/img/sample9.jpg"
-                }
-                ListElement {
-                    name: "crazy song"
-                    srcImg: "qrc:/Resource/img/sample10.jpg"
-                }
-            }
+//                ListElement {
+//                    name: "blnkspc_ - Sticky"
+//                    srcImg: "qrc:/Resource/img/sample2.jpg"
+//                }
+//                ListElement {
+//                    name: "love the way you are"
+//                    srcImg: "qrc:/Resource/img/sample5.jpg"
+//                }
+//                ListElement {
+//                    name: "soft and skin"
+//                    srcImg: "qrc:/Resource/img/sample7.jpg"
+//                }
+//                ListElement {
+//                    name: "miss you like crazy"
+//                    srcImg: "qrc:/Resource/img/sample9.jpg"
+//                }
+//                ListElement {
+//                    name: "crazy song"
+//                    srcImg: "qrc:/Resource/img/sample10.jpg"
+//                }
+//            }
+            model: myModel
             delegate: Rectangle {
                 width: 160
                 height: 210
@@ -411,7 +412,7 @@ Window {
                         anchors.horizontalCenter: parent.horizontalCenter
                         width: 125
                         height: 125
-                        source: srcImg
+                        source: imgSrc
                     }
 
                 }
@@ -620,10 +621,12 @@ Window {
 
 
 
+
+
 /*##^## Designer {
-    D{i:6;anchors_height:8;anchors_width:8;anchors_x:8;anchors_y:8}D{i:9;anchors_height:5;anchors_x:213;anchors_y:434}
-D{i:8;anchors_height:434;anchors_y:0}D{i:11;anchors_height:434;anchors_x:8;anchors_y:0}
-D{i:15;anchors_height:434;anchors_y:0}D{i:19;anchors_height:5;anchors_y:434}D{i:17;anchors_height:5;anchors_y:434}
-D{i:20;anchors_height:5;anchors_y:434}D{i:23;anchors_x:8}D{i:22;anchors_x:8}D{i:21;anchors_x:8}
+    D{i:8;anchors_height:434;anchors_y:0}D{i:6;anchors_height:8;anchors_width:8;anchors_x:8;anchors_y:8}
+D{i:11;anchors_height:434;anchors_x:8;anchors_y:0}D{i:9;anchors_height:5;anchors_x:213;anchors_y:434}
+D{i:17;anchors_height:5;anchors_y:434}D{i:15;anchors_height:434;anchors_y:0}D{i:19;anchors_height:5;anchors_y:434}
+D{i:20;anchors_height:5;anchors_y:434}D{i:21;anchors_x:8}D{i:23;anchors_x:8}D{i:22;anchors_x:8}
 }
  ##^##*/
